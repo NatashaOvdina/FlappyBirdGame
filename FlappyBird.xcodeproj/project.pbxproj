@@ -7,16 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42696ADA2AF9A11E004E7425 /* BirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42696AD92AF9A11E004E7425 /* BirdView.swift */; };
+		42696ADC2AF9A3CE004E7425 /* PipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42696ADB2AF9A3CE004E7425 /* PipeView.swift */; };
+		42696ADE2AF9A893004E7425 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42696ADD2AF9A893004E7425 /* ResultView.swift */; };
 		42AEE3FD2AF954EA00D57A65 /* FlappyBirdApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AEE3FC2AF954EA00D57A65 /* FlappyBirdApp.swift */; };
-		42AEE3FF2AF954EA00D57A65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AEE3FE2AF954EA00D57A65 /* ContentView.swift */; };
+		42AEE3FF2AF954EA00D57A65 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AEE3FE2AF954EA00D57A65 /* GameView.swift */; };
 		42AEE4012AF954EC00D57A65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42AEE4002AF954EC00D57A65 /* Assets.xcassets */; };
 		42AEE4042AF954EC00D57A65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42AEE4032AF954EC00D57A65 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		42696AD92AF9A11E004E7425 /* BirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdView.swift; sourceTree = "<group>"; };
+		42696ADB2AF9A3CE004E7425 /* PipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PipeView.swift; sourceTree = "<group>"; };
+		42696ADD2AF9A893004E7425 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 		42AEE3F92AF954EA00D57A65 /* FlappyBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlappyBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42AEE3FC2AF954EA00D57A65 /* FlappyBirdApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlappyBirdApp.swift; sourceTree = "<group>"; };
-		42AEE3FE2AF954EA00D57A65 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		42AEE3FE2AF954EA00D57A65 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		42AEE4002AF954EC00D57A65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42AEE4032AF954EC00D57A65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +58,10 @@
 			isa = PBXGroup;
 			children = (
 				42AEE3FC2AF954EA00D57A65 /* FlappyBirdApp.swift */,
-				42AEE3FE2AF954EA00D57A65 /* ContentView.swift */,
+				42AEE3FE2AF954EA00D57A65 /* GameView.swift */,
+				42696AD92AF9A11E004E7425 /* BirdView.swift */,
+				42696ADB2AF9A3CE004E7425 /* PipeView.swift */,
+				42696ADD2AF9A893004E7425 /* ResultView.swift */,
 				42AEE4002AF954EC00D57A65 /* Assets.xcassets */,
 				42AEE4022AF954EC00D57A65 /* Preview Content */,
 			);
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42AEE3FF2AF954EA00D57A65 /* ContentView.swift in Sources */,
+				42696ADA2AF9A11E004E7425 /* BirdView.swift in Sources */,
+				42AEE3FF2AF954EA00D57A65 /* GameView.swift in Sources */,
+				42696ADE2AF9A893004E7425 /* ResultView.swift in Sources */,
+				42696ADC2AF9A3CE004E7425 /* PipeView.swift in Sources */,
 				42AEE3FD2AF954EA00D57A65 /* FlappyBirdApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
