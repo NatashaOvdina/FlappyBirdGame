@@ -10,7 +10,7 @@ import SwiftUI
 struct BirdView: View {
     let birdSize: CGFloat
     var body: some View {
-        Image(.bird2)
+        Image(.pngegg)
             .resizable()
             .scaledToFit()
             .frame(width: birdSize, height: birdSize)
@@ -18,5 +18,5 @@ struct BirdView: View {
 }
 
 #Preview {
-    BirdView(birdSize: 60)
+    BirdView(birdSize: 50)
 }

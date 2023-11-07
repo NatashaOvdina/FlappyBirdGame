@@ -14,7 +14,7 @@ struct GameView: View {
     private let pipeSpacing: CGFloat = 100
     private let pipeOffset: CGFloat = 0
     private let scores = 0
-    private let birdSize: CGFloat = 60
+    private let birdSize: CGFloat = 50
     
     var body: some View {
         GeometryReader { geometry in
